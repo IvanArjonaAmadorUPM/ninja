@@ -1,0 +1,32 @@
+<div class="text-[#cd966c] h-screen">
+  <mat-tab-group class="bg-[#713122] text-[#cd966c]">
+    <mat-tab label="Ranked">
+      <ng-template mat-tab-label>
+        <mat-icon>emoji_events</mat-icon>
+        <span class="block text-xs mt-1 text-[#cd966c]">Ranked</span>
+      </ng-template>
+      <app-jugadores/>
+    </mat-tab>
+    <mat-tab label="Partidas">
+      <ng-template mat-tab-label>
+        <mat-icon>sports_esports</mat-icon>
+        <span class="block text-xs mt-1 text-[#cd966c]">Partidas</span>
+      </ng-template>
+      <app-partidas/>
+    </mat-tab>
+    <mat-tab label="Jugadores">
+      <ng-template mat-tab-label>
+        <mat-icon>group</mat-icon>
+        <span class="block text-xs mt-1 text-[#cd966c]">Jugadores</span>
+      </ng-template>
+      <app-ranked/>
+    </mat-tab>
+    <mat-tab label="Reglas">
+      <ng-template mat-tab-label>
+        <mat-icon>description</mat-icon>
+        <span class="block text-xs mt-1 text-[#cd966c]">Reglas</span>
+      </ng-template>
+      <app-reglas/>
+    </mat-tab>
+  </mat-tab-group>
+</div>
