@@ -7,6 +7,7 @@ import { PartidasComponent } from 'src/app/pages/partidas/partidas.component';
 import { RankedComponent } from 'src/app/pages/ranked/ranked.component';
 import { ReglasComponent } from 'src/app/pages/reglas/reglas.component';
 
+
 @Component({
   selector: 'app-tabs',
   templateUrl: './tabs.component.html',
