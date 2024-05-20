@@ -1,0 +1,14 @@
+.podium {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    height: 200px;
+    position: relative;
+  }
+  
+  .position {
+    margin: 0 10px;
+    text-align: center;
+    transition: transform 1s ease;
+  }
+  
