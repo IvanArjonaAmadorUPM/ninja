@@ -1,5 +1,6 @@
   .wrapper{
     // background-image: url('../../../assets/images/fondo.png');
     background-color: #7C6156;
-    height: 100%;
+    max-height: 80vh;
+    overflow: auto;
 }

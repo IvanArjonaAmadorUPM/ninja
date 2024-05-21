@@ -1,10 +1,13 @@
 <div class="wrapper">
-    <div class="max-w-full overflow-auto flex flex-col items-center">
+    <div class="max-w-full flex flex-col items-center">
         <div class="my-4">
             <app-podium [podiumData]="podiumData"/>
         </div>
-        <div class="my-4 min-w-full min-h-40">
+        <div class="my-4 min-w-full">
             <app-last-games/>
+        </div>
+        <div class="my-4 min-w-full">
+            <app-ranking/>
         </div>
     </div>
 </div>

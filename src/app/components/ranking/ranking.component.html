@@ -1,0 +1,19 @@
+<div class="ranking">
+  <h2 class="title">Ranking de Jugadores</h2>
+  <div class="category diamond" *ngFor="let player of diamondPlayers">
+    <div class="player">{{ player.name }}</div>
+    <div class="wins">{{ player.wins }}</div>
+  </div>
+  <div class="category gold" *ngFor="let player of goldPlayers">
+    <div class="player">{{ player.name }}</div>
+    <div class="wins">{{ player.wins }}</div>
+  </div>
+  <div class="category silver" *ngFor="let player of silverPlayers">
+    <div class="player">{{ player.name }}</div>
+    <div class="wins">{{ player.wins }}</div>
+  </div>
+  <div class="category bronze" *ngFor="let player of bronzePlayers">
+    <div class="player">{{ player.name }}</div>
+    <div class="wins">{{ player.wins }}</div>
+  </div>
+</div>

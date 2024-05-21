@@ -1,0 +1,46 @@
+.ranking {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .title {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    color: white;
+  }
+  
+  .category {
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+  }
+  
+  .diamond {
+    background-color: #B9F2FF; /* Diamante */
+  }
+  
+  .gold {
+    background-color: #ffd700; /* Oro */
+  }
+  
+  .silver {
+    background-color: #c0c0c0; /* Plata */
+  }
+  
+  .bronze {
+    background-color: #cd7f32; /* Bronce */
+  }
+  
+  .player {
+    font-weight: bold;
+  }
+  
+  .wins {
+    color: #fff;
+    font-weight: bold;
+  }
+  
