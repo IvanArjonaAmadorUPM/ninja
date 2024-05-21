@@ -1,0 +1,19 @@
+<div class="last-games">
+  <h2 class="title">Últimas 3 partidas</h2>
+  <table class="game-table" [@fadeIn]>
+    <thead>
+      <tr>
+        <th>Ganadores</th>
+        <th>Rol</th>
+        <th>Fecha</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let game of dataSource; let i = index" [class.odd-row]="i % 2 !== 0" [class.even-row]="i % 2 === 0">
+        <td>{{ game.ganadores }}</td>
+        <td [ngClass]="getRoleColor(game.rol)">{{ game.rol | uppercase}}</td>
+        <td>{{ game.fecha }}</td>
+      </tr>
+    </tbody>
+  </table>
+</div>

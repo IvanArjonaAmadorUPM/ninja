@@ -1,6 +1,5 @@
 import { Component, OnInit } from '@angular/core';
 import { RouterLink } from '@angular/router';
-import { MatTabsModule } from '@angular/material/tabs';
 import { MatIconModule } from '@angular/material/icon';
 import { JugadoresComponent } from 'src/app/pages/jugadores/jugadores.component';
 import { PartidasComponent } from 'src/app/pages/partidas/partidas.component';

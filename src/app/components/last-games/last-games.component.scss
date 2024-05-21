@@ -1,0 +1,57 @@
+@keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  .game-table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #9c7d74;
+    border-radius: 8px;
+    background-color: #fafafa
+  }
+  
+  th,
+  td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+  thead {
+    background-color: #5c3a2d;
+  }
+  
+  tbody tr:nth-child(even) {
+    background-color: #8b655b;
+  }
+  
+  tbody tr:nth-child(odd) {
+    background-color: #735145;
+  }
+  
+  .ninja-color {
+    color: blue;
+  }
+  
+  .samurai-color {
+    color: yellow;
+  }
+  
+  .ronin-color {
+    color: red;
+  }
+  
+  .title {
+    color: #fff;
+    font-size: 1.5rem;
+    margin-bottom: 16px;
+  }
+  
+  .last-games {
+    margin: 16px;
+  }
+  

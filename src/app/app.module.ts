@@ -8,6 +8,7 @@ import { IonicModule } from '@ionic/angular';
 import { TabsComponent } from "./components/tabs/tabs.component";
 import { MatIconModule } from '@angular/material/icon';
 
+
 @NgModule({
     declarations: [
         AppComponent,

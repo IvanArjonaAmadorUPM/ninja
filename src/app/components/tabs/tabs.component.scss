@@ -1,0 +1,19 @@
+ion-tab-bar {
+    --background: #713122; /* Background color of the tab bar */
+    --color: #cd966c; /* Default color of the tabs */
+    --color-selected: #ffcc00; /* Color of the selected tab icon and label */
+  }
+  
+  ion-tab-button {
+    --color: #cd966c; /* Default color of the tab button */
+    --color-selected: #ffcc00; /* Color of the selected tab button */
+  }
+  
+  ion-tab-button.ion-selected mat-icon {
+    color: var(--color-selected) !important;
+  }
+  
+  ion-tab-button.ion-selected .block {
+    color: var(--color-selected) !important;
+  }
+  
