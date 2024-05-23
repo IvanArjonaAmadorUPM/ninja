@@ -1,6 +1,8 @@
-  .wrapper{
-    // background-image: url('../../../assets/images/fondo.png');
-    background-color: #7C6156;
-    max-height: 80vh;
-    overflow: auto;
+.wrapper {
+  // background-image: url('../../../assets/images/fondo.png');
+  background-color: #7c6156;
+  max-height: 78vh;
+  position: relative;
+  overflow-y: auto;
+  z-index: 1;
 }
