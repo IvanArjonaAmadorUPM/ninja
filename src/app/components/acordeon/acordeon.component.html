@@ -1,0 +1,61 @@
+<mat-accordion>
+  <!-- Acordeón para CARTAS -->
+  <mat-expansion-panel>
+    <mat-expansion-panel-header>
+      <mat-panel-title>
+        CARTAS
+      </mat-panel-title>
+    </mat-expansion-panel-header>
+    <div *ngFor="let carta of cartas">
+      <mat-expansion-panel>
+        <mat-expansion-panel-header>
+          <mat-panel-title>
+            {{ carta.nombre }}
+            <mat-icon (click)="editItem('carta', carta)">edit</mat-icon>
+          </mat-panel-title>
+        </mat-expansion-panel-header>
+        <p>{{ carta.descripcion }}</p>
+      </mat-expansion-panel>
+    </div>
+  </mat-expansion-panel>
+
+  <!-- Acordeón para PERSONAJES -->
+  <mat-expansion-panel>
+    <mat-expansion-panel-header>
+      <mat-panel-title>
+        PERSONAJES
+      </mat-panel-title>
+    </mat-expansion-panel-header>
+    <div *ngFor="let personaje of personajes">
+      <mat-expansion-panel>
+        <mat-expansion-panel-header>
+          <mat-panel-title>
+            {{ personaje.nombre }}
+            <mat-icon (click)="editItem('carta', personaje)">edit</mat-icon>
+          </mat-panel-title>
+        </mat-expansion-panel-header>
+        <p>{{ personaje.descripcion }}</p>
+      </mat-expansion-panel>
+    </div>
+  </mat-expansion-panel>
+
+    <!-- Acordeón para GENERALES -->
+    <mat-expansion-panel>
+      <mat-expansion-panel-header>
+        <mat-panel-title>
+          GENERALES
+        </mat-panel-title>
+      </mat-expansion-panel-header>
+      <div *ngFor="let general of generales">
+        <mat-expansion-panel>
+          <mat-expansion-panel-header>
+            <mat-panel-title>
+              {{ general.nombre }}
+              <mat-icon (click)="editItem('carta', general)">edit</mat-icon>
+            </mat-panel-title>
+          </mat-expansion-panel-header>
+          <p>{{ general.descripcion }}</p>
+        </mat-expansion-panel>
+      </div>
+    </mat-expansion-panel>
+</mat-accordion>

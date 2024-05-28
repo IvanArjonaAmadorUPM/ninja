@@ -1,0 +1,68 @@
+/* Estilos para el acordeón */
+mat-accordion {
+    padding: 16px;
+    border-radius: 8px;
+  }
+  
+  /* Estilos para los encabezados de los paneles */
+  mat-expansion-panel-header {
+    background-color: #713122;
+    color: #ffffff;
+    font-size: 1.2rem;
+    font-weight: bold;
+    border-radius: 8px;
+    margin-bottom: 8px;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+  
+    &:hover {
+      background-color: #5c3a2d;
+    }
+  
+    mat-panel-title {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+  
+    mat-icon {
+      margin-left: 10px;
+      color: #ffffff;
+      cursor: pointer;
+    }
+  }
+  
+  /* Estilos para el contenido de los paneles */
+  mat-expansion-panel {
+    background-color: #9c7d74;
+    color: #ffffff;
+    margin-bottom: 8px;
+    border-radius: 8px;
+    margin-left: 8px;
+    margin-right: 8px;
+    overflow: hidden;
+    transition: max-height 0.5s ease-in-out, background-color 0.3s ease;
+  }
+  
+  mat-expansion-panel-body {
+    padding: 16px;
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+  
+  /* Animaciones para los paneles */
+  mat-expansion-panel-body {
+    animation: fadeIn 0.5s ease-in-out;
+  }
+  
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+      transform: translateY(-10px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  

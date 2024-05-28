@@ -1,3 +1,18 @@
-<p>
-  reglas works!
-</p>
+<div class="wrapper">
+  <div class="max-w-full flex flex-col items-center">
+
+    <button mat-flat-button color="primary" class="flex items-center align-middle text-white m-2 mt-4" (click)="addItem()">
+      <mat-icon>add</mat-icon>
+      Añadir
+    </button>
+
+
+    <app-acordeon
+      [cartas]="cartas"
+      [personajes]="personajes"
+      [generales]="generales"
+    >
+      ></app-acordeon
+    >
+  </div>
+</div>
