@@ -1,0 +1,49 @@
+:host ::ng-deep {
+    .mat-mdc-card-header-text {
+      width: 100%; // Asegúrate de que este elemento tenga un ancho del 100%
+    }
+  }
+  
+  .partida-tarjeta {
+    margin: 10px;
+    background-color: rgb(113, 49, 34); // Cambia el color de fondo
+    color: white; // Cambia el color del texto
+  }
+  
+  .titulo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%; // Asegúrate de que esto esté presente
+  }
+  
+  .numero {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .jugadores-count {
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.54); // Cambia el color del texto
+    display: flex;
+    align-items: center; // Para alinear el icono correctamente
+  }
+  
+  .jugadores {
+    margin-top: 10px;
+  }
+  
+  .jugador {
+    font-size: 14px;
+    margin-bottom: 5px;
+  }
+  
+  .ganadores {
+    margin-top: 20px;
+  }
+  
+  .jugador-ganador {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  

@@ -1,0 +1,26 @@
+<mat-card class="partida-tarjeta">
+  <mat-card-header>
+    <mat-card-title>
+      <div class="titulo">
+        <div class="numero">{{ numeroPartida }}</div>
+        <div class="jugadores-count">
+          {{ partida.jugadores.length }} <mat-icon>group</mat-icon>
+        </div>
+      </div>
+    </mat-card-title>
+  </mat-card-header>
+  <mat-card-content>
+    <div class="jugadores">
+      <div *ngFor="let jugador of partida.jugadores" class="jugador">
+        {{ jugador.nombre }} - {{ jugador.rol.rol }}
+      </div>
+    </div>
+    <mat-divider></mat-divider>
+    <div class="ganadores">
+      <h3>Ganadores:</h3>
+      <div *ngFor="let ganador of partida.ganadores" class="jugador-ganador">
+        {{ ganador.nombre }} - {{ ganador.rol.rol }}
+      </div>
+    </div>
+  </mat-card-content>
+</mat-card>

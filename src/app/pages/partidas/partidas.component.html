@@ -1,5 +1,11 @@
 <div class="wrapper">
   <div class="max-w-full flex flex-col items-center">
+      <app-partida-tarjeta
+        class="min-w-[80%]"
+        *ngFor="let partida of partidas; let i = index"
+        [partida]="partida"
+        [numeroPartida]="partidas.length - i"
+      />
     
   </div>
 </div>
